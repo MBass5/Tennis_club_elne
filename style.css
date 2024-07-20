@@ -1,0 +1,111 @@
+body {
+  background-color: rgb(139, 41, 41);
+}
+.nav-link {
+  color: rgb(139, 41, 41);
+  text-shadow: 0, 0, 0, 20px, black;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.titre {
+  font-size: 100px;
+}
+
+.equipe {
+  font-size: 50px;
+}
+
+.photo-id {
+  margin-left: 450px;
+}
+
+.info-presidente,
+.info-moniteur1,
+.info-moniteur2 {
+  margin-left: 200px;
+}
+.img0760 {
+  border-radius: 50%;
+}
+footer {
+  height: 20vh;
+}
+
+/* Formulaire de contact */
+html {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  color: #014e79;
+}
+
+/* form {
+  margin: 3% 15%;
+} */
+
+div,
+textarea,
+button {
+  margin: 1% 0%;
+}
+
+fieldset {
+  padding: 2%;
+}
+
+input,
+select {
+  flex-grow: 1;
+  font-size: 1em;
+  background-color: transparent;
+  color: #014e79;
+  padding: 0.2%;
+}
+
+input[type="radio"] {
+  margin-right: 1em;
+}
+
+#message {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  border-radius: 100%;
+  background-color: #198754;
+  color: rgb(139, 41, 41);
+  padding: 0.7em 1em;
+  font-size: 1em;
+  border: none;
+}
+
+button:hover {
+  background-color: #095f35;
+  transition-duration: 0.5s;
+}
+
+/*classes d'animations pour JavaScript*/
+
+.masque {
+  opacity: 0%;
+  margin-bottom: -4%;
+}
+
+.app {
+  opacity: 100%;
+  transition-duration: 0.5s;
+  margin-bottom: 0%;
+}
+
+.disp {
+  opacity: 0%;
+  transition-duration: 0.5s;
+  margin-bottom: -4%;
+}
