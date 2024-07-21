@@ -36,33 +36,11 @@ footer {
 }
 
 /* Formulaire de contact */
-html {
-  width: 100%;
-  font-family: Arial, sans-serif;
-  color: #014e79;
-}
-
-/* form {
-  margin: 3% 15%;
-} */
-
-div,
-textarea,
-button {
-  margin: 1% 0%;
-}
-
-fieldset {
-  padding: 2%;
-}
 
 input,
 select {
-  flex-grow: 1;
-  font-size: 1em;
   background-color: transparent;
   color: #014e79;
-  padding: 0.2%;
 }
 
 input[type="radio"] {
